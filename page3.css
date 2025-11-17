@@ -1,0 +1,111 @@
+body {
+  background-color: #365359;
+}
+
+.reviews {
+  background-color: #f3ede6;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.review {
+  width: 48%;
+  display: flex;
+  gap: 25px;
+  font-family: "jaf-lapture-caption", serif;
+  font-size: 25px;
+}
+
+.review img {
+  width: 65px;
+  height: 65px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.review-text h4 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.review-text p {
+  margin: 8px 0 0;
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+
+
+.custom-scent {
+  padding: 50px 20px;
+  text-align: center;
+  color: white;
+  font-family: "miller-banner", serif;
+}
+
+.custom-title {
+  background-color: #403333;
+  font-size: 35px;
+  border: 2px solid white;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 15px;
+  margin-bottom: 25px;
+}
+
+.form {
+  background-color: black;
+  max-width: 500px;
+  margin: auto;
+  padding: 40px;
+  border-radius: 30px;
+  text-align: center;
+}
+
+
+.form select:hover{
+	transform: scale(1.03);
+	
+}
+
+.form select {
+  width: 100%;
+  padding: 20px;
+  border-radius: 30px;
+  border: none;
+  font-size: 16px;
+  font-family: "jaf-lapture-caption", serif;
+   cursor: pointer;
+}
+
+.submit-button {
+  margin-top: 30px;
+  padding: 25px 20px;
+  font-size: 18px;
+  font-weight: bold;
+  font-family: "jaf-lapture-caption", serif;
+  border-radius: 12px;
+  background-color: white;
+  color: black;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.submit-button:hover {
+  transform: scale(1.08);
+}
+
+.footer {
+	color:#86A6A6;
+	text-align:left;
+	margin-top:140px;
+	font-size:30px;
+	font-family: "miller-banner", serif;
+	font-weight: 700;
+	font-style: italic;
+}
+	
